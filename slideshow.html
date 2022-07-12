@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <title>AI Generated Images | OBS Slideshow</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <META NAME="robots" CONTENT="noindex,nofollow">
+        <style>
+          body {
+            height: auto;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0);
+            margin: 0px auto;
+            overflow: hidden;
+          }
+          .mySlides {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+          }
+          .slider {
+            left: 0;
+            width: 100%;
+            height: auto;
+            background-color: #000;
+          }
+        </style>
+        </head>
+      <body oncopy="return false" oncut="return false" onpaste="return false">
+        <div class="slider">
+          <img class="mySlides" src="./assets/img/slideshow/1.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/2.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/3.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/4.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/5.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/6.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/7.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/8.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/9.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/10.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/11.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/12.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/13.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/14.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/15.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/16.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/17.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/18.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/19.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/20.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/21.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/22.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/23.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/24.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/25.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/26.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/27.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/28.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/29.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/30.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/31.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/32.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/33.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/34.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/35.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/36.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/37.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/38.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/39.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/40.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/41.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/42.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/43.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/44.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/45.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/46.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/47.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/48.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/49.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/50.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/51.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/52.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/53.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/54.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/55.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/56.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/57.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/58.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/59.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/60.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/62.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/61.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/63.jpg">
+          <img class="mySlides" src="./assets/img/slideshow/64.jpg">
+        </div>
+        <script>
+          var myIndex = 0;
+          carousel();
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+              myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 15000);
+            // Change image every 2 seconds
+          }
+        </script>
+      </body>
+      </html>
